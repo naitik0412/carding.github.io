@@ -1,0 +1,1 @@
+chrome-extension://adlpodnneegcnbophopdmhedicjbcgco/caa/bundle.js

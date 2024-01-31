@@ -1,0 +1,552 @@
+* {
+    font-family: ARIAL;
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #00ff00;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+body {
+    margin: 0px auto;
+    width: 990px;
+    padding: 0px;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/*input, select {
+	background:#ffffff;
+	color:#000000;
+}
+textarea, input, select {
+	background-color: #ffffff;
+	color: #000000;
+	border-color:#00ff00;
+	resize: none;
+}
+*/
+
+input,
+textarea,
+select {
+    color: #ffffff;
+    border: 1px solid #808080;
+    background-color: #333333;
+    resize: none;
+}
+
+input[type="text"],
+textarea {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #444444;
+    font-weight: bold;
+    padding: 3px;
+    margin: 3px;
+}
+
+p,
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.borderstyle {
+    padding: 5px;
+    font-size: 11px;
+    background-color: #222;
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    color: #ffffff;
+}
+
+.formstyle {
+    padding: 5px;
+    font-size: 11px;
+    background-color: #222;
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    color: #ffffff;
+}
+
+.formstyle:focus,
+.formstyle:hover {
+    font-size: 11px;
+    background-color: #333333;
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #7f7f7f;
+    border-bottom: 1px solid #7f7f7f;
+    color: #ffffff;
+}
+
+.transfer_table {
+    width: 600px;
+    padding: 5px;
+    margin: 15px auto;
+    background-color: #222;
+    color: #ffffff;
+}
+
+.content_table {
+    width: 890px;
+    padding: 5px;
+    margin: 15px auto;
+    background-color: #222;
+    color: #ffffff;
+}
+
+#yourShoppingCart img {
+    vertical-align: middle;
+}
+
+#yourShoppingCart {
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#error {
+    color: #FF0000;
+}
+
+#banner {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    height: 200px;
+    background: #222 url(../images/logo.jpg) no-repeat center;
+}
+
+#wraper {
+    margin: 10px auto;
+    padding: 0 20px;
+    background: #222;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#balance_notify {
+    text-align: center;
+    padding: 5px 0;
+}
+
+#balance_notify * {
+    font-size: 13px;
+}
+
+.account_info td {
+    width: 200px;
+}
+
+.message_message {
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+}
+
+.small {
+    font-size: 11px;
+}
+
+.normal {
+    font-size: 12px;
+}
+
+.large {
+    font-size: 13px;
+}
+
+.notication {
+    padding: 10px;
+    margin: 10px 0;
+    float: right;
+    background-color: #808080;
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.notication p {
+    padding: 3px;
+}
+
+.page_go {
+    width: 20px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.section_title {
+    width: 890px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.section_page_bar {
+    width: 890px;
+    text-align: right;
+}
+
+.section_page_bar a,
+.section_page_bar input {
+    margin: 0 3px;
+}
+
+.section_content {
+    width: 890px;
+}
+
+/* Begin index.php */
+
+.ad_menu {
+    float: right;
+    padding-right: 10px;
+}
+
+.ad_editor {
+    width: 110px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ad_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ad_title_editor {
+    width: 780px;
+}
+
+.ad_content_editor {
+    width: 780px;
+    height: 200px;
+}
+
+.ad_info {
+    font-size: 9px;
+    float: right;
+    padding-right: 10px;
+}
+
+.news_menu {
+    float: right;
+    padding-right: 10px;
+}
+
+.news_editor {
+    width: 110px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.news_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.news_title_editor {
+    width: 780px;
+}
+
+.news_content_editor {
+    width: 780px;
+    height: 200px;
+}
+
+.news_info {
+    font-size: 9px;
+    float: right;
+    padding-right: 10px;
+}
+
+.dump_editor {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dump_value_editor {
+    width: 200px;
+}
+
+.dump_full_info {
+    width: 864px;
+    height: 100px;
+}
+
+.dump_comment {
+    width: 640px;
+    height: 100px;
+}
+
+.dump_content_editor {
+    width: 780px;
+    height: 200px;
+}
+
+.dump_content_error {
+    width: 780px;
+    height: 100px;
+}
+
+.card_editor {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card_value_editor {
+    width: 200px;
+}
+
+.card_full_info {
+    width: 864px;
+    height: 100px;
+}
+
+.card_comment {
+    width: 640px;
+    height: 100px;
+}
+
+.card_content_editor {
+    width: 780px;
+    height: 200px;
+}
+
+.card_content_error {
+    width: 780px;
+    height: 100px;
+}
+
+.otheraccount_editor {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.otheraccount_value_editor {
+    width: 200px;
+}
+
+.otheraccount_full_info {
+    width: 864px;
+    height: 100px;
+}
+
+.otheraccount_comment {
+    width: 640px;
+    height: 100px;
+}
+
+.otheraccount_content_editor {
+    width: 780px;
+    height: 200px;
+}
+
+.otheraccount_content_error {
+    width: 780px;
+    height: 100px;
+}
+
+.news_content {
+    text-align: left;
+    text-indent: 20px;
+}
+
+/* End index.php */
+
+.users_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.configs_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.groups_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrapper_table {
+    margin: 10px auto;
+    width: 890px;
+}
+
+/* Begin cards.php, mycards.php */
+
+.iconcc {
+    width: 30px;
+    height: 30px;
+}
+
+/* End cards.php, mycards.php */
+
+/* Begin myaccount, myorder, deposit */
+
+.paygate_title {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.paygate_content {
+    text-align: left;
+    font-family: verdana;
+    font-size: 12px;
+    color: #000000;
+}
+
+/* End myaccount, myorder, deposit */
+
+/* Begin support.php */
+
+.support_title {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.support_content {
+    width: 690px;
+    text-align: left;
+    font-family: verdana;
+    font-size: 12px;
+    color: #000000;
+}
+
+.support_content input {
+    width: 670px;
+}
+
+.support_content textarea {
+    width: 670px;
+    height: 200px;
+}
+
+/* End support.php */
+
+#login_success {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#copyright {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.success {
+    color: #00FF00;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    color: #FF2200;
+    font-weight: bold;
+    text-align: center;
+}
+
+.red {
+    color: #FF2200;
+}
+
+.green {
+    color: #008000;
+}
+
+.lime {
+    color: #00ff00;
+}
+
+.blue {
+    color: #0000ff;
+}
+
+.black {
+    color: #000000;
+}
+
+.pink {
+    color: #FF00FF;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.shadow_cards {
+    text-shadow: 0 0 0.8em #FFFF00, 0 0 0.8em #FFFF00
+}
+
+.right1 {
+    float: right;
+    padding-right: 30px;
+}
+
+#noticeUpdate.notice_error {
+    color: red;
+    text-align: center;
+}
+
+#noticeUpdate.notice_sucess {
+    color: green;
+    text-align: center;
+}
+
+.unread a {
+    color: red;
+}
